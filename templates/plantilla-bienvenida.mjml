@@ -1,0 +1,36 @@
+<mjml>
+  <mj-body background-color="#ffffff" font-size="13px">
+    <mj-section background-color="#ffffff" padding-bottom="0px" padding-top="0">
+      <mj-column vertical-align="top" width="100%">
+
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#009FE3" vertical-align="top" padding-bottom="0px" padding-top="0">
+      <mj-column vertical-align="top" width="100%">
+        <mj-text align="left" color="#ffffff" font-size="45px" font-weight="bold" font-family="open Sans Helvetica, Arial, sans-serif" 
+                 padding-left="25px" padding-right="25px" padding-bottom="30px" padding-top="50px">
+          Bienvenido a MIDAS</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#009fe3" padding-bottom="20px" padding-top="20px">
+      <mj-column vertical-align="middle" width="100%">
+        <mj-text align="left" color="#ffffff" font-size="22px" font-family="open Sans Helvetica, Arial, sans-serif" 
+                 padding-left="25px" padding-right="25px"><span style="color:#FEEB35">
+          Estimado [[FirstName]]</span><br /><br /> Bienvenidoa a [[CompanyName]].
+        </mj-text>
+        <mj-text align="left" color="#ffffff" font-size="15px" font-family="open Sans Helvetica, Arial, sans-serif" 
+                 padding-left="25px" padding-right="25px">
+          Estamos emocionados de tenerte con nosotros y a la vez informarte que todos nuestras noticias se enviaran a tu mail [[ContactEmail]], 
+          desde hoy puedes acceder a tu cuenta de correo utilizando tu username [[UserName]]</mj-text>
+        <mj-button align="left" font-size="22px" font-weight="bold" background-color="#ffffff" 
+          border-radius="10px" color="#1AA0E1" font-family="open Sans Helvetica, Arial, sans-serif">
+          Login
+        </mj-button>
+        <mj-text align="left" color="#ffffff" font-size="15px" font-family="open Sans Helvetica, Arial, sans-serif" 
+                 padding-left="25px" padding-right="25px">
+        Gracias, <br /> Tu familia [[CompanyName]] 
+       </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
